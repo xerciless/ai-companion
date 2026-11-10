@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "aicompanion",
+	"version": "${version}",
+	"name": "AI Companion",
+	"description": "An AI buddy that joins your world as a real player. It follows you, mines, chops wood, builds, fights mobs and chats with you. Press the Down Arrow to open the companion menu.",
+	"authors": [
+		"AI Companion"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.aicompanion.AICompanion"
+		],
+		"client": [
+			"com.aicompanion.client.AICompanionClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.0",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"contact": {}
+}
